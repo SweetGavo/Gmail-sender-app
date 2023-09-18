@@ -6,7 +6,6 @@ const port = 3000;
 
 let transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
-  port: 3000,
   secure: true,
   service: "gmail",
   auth: {
